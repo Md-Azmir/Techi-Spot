@@ -1,0 +1,51 @@
+.sidenavmemes {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    height: 90.3vh;
+    border-radius: 1px 1px 1px 0px;
+    position: fixed;
+    margin-top: 5.5%;
+    overflow: auto;
+    background-color: #131212; 
+    width:24%;
+}
+.sidememe {
+    list-style: none;
+    padding: 2vh 2vw 10vh;
+    font-size: 1.5rem;
+}
+.memeItem {
+    margin-top: 1.3vh;
+    padding: 1.5vh;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, border-radius 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.memeItem:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #e0f7fa; /* Light blue background on hover */
+    color: #333; /* Darker text color on hover */
+}
+i {
+    margin-right: 2vh;
+    color: #2196f3; /* Material blue color for icons */
+}
+.catagorybtn{
+   margin-top:10px;
+   margin-left: 65px;
+   background-color:#2196f3;
+   color:white;
+   height: 50px;
+   border-radius: 50px;
+}
+.catagorybtn:hover {
+    background: linear-gradient(45deg, #2196f3, #21cbf3);
+    transform: scale(1.1); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+ }
+
+@media screen and (max-width:600px){
+    .sidenavmemes{
+        display:none;
+    }
+}
